@@ -22,7 +22,7 @@ proxies:
       path: /isp
 proxy-providers:
   Subscribe:
-    url: 订阅链接
+    url: https://911tg3rs.com/api/v1/client/subscribe?token=8ac3481ab74232c9b6fdef5f27d9c4bb
     type: http
     interval: 86400
     health-check:
