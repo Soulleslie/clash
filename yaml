@@ -16,7 +16,7 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    skip-cert-verify: ture
+    skip-cert-verify: false
     network: ws
     ws-opts:
       path: /isp
