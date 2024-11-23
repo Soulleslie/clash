@@ -1,8 +1,8 @@
 p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://1.1.1.1/generate_204, interval: 1800, timeout: 5000}}
 proxies:
-  - {name: 🇺🇸 AT&T, server: 75.56.172.193, port: 10000, type: vmess, uuid: f44a6f38-0fee-4dd5-928e-390bee41069f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: ture, network: ws, ws-opts: {path: /isp}}
+  - {name: 🇺🇸 AT&T, server: 00.00.000.000, port: 10000, type: vmess, uuid: f44a6f38-0fee-4dd5-928e-390bee41069f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: ture, network: ws, ws-opts: {path: /isp}}
 proxy-providers:
-  Subscribe: {url: https://911tg3rs.com/api/v1/client/subscribe?token=8ac3481ab74232c9b6fdef5f27d9c4bb, <<: *p}
+  Subscribe: {url: 订阅地址, <<: *p}
     #override: # 修改节点前后缀时，需移除前方的 "#" 符号
       #additional-prefix: "节点前缀"
       #additional-suffix: "节点后缀"
