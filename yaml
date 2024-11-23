@@ -1,4 +1,3 @@
----
 p:
   type: http
   interval: 86400
