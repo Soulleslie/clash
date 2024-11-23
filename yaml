@@ -413,4 +413,4 @@ rules:
   - GEOSITE,gfw,国外网站
   - GEOIP,lan,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,兜底分流
+  - MATCH,兜底分流,手动切换
