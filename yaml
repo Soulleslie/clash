@@ -3,7 +3,7 @@ p:
   interval: 86400
   health-check:
     enable: true
-    url: http://1.1.1.1/generate_204
+    url: http://www.google.com/generate_204
     interval: 1800
     timeout: 5000
 proxies:
@@ -98,7 +98,7 @@ pg:
     - DIRECT
 url-test:
   type: url-test
-  url: http://1.1.1.1/generate_204
+  url: http://www.google.com/generate_204
   interval: 300
   tolerance: 0
   include-all: true
@@ -107,13 +107,13 @@ select:
   include-all: true
 fallback:
   type: fallback
-  url: http://1.1.1.1/generate_204
+  url: http://www.google.com/generate_204
   interval: 300
   include-all: true
 load-balance:
   type: load-balance
   strategy: consistent-hashing
-  url: http://1.1.1.1/generate_204
+  url: http://www.google.com/generate_204
   interval: 300
   include-all: true
 c:
@@ -122,6 +122,18 @@ c:
   format: text
   interval: 86400
 proxy-groups:
+  - name: Proxy
+    type: select
+    include-all: true
+    proxies:
+      - 香港节点
+      - 美国节点
+      - 狮城节点
+      - 日本节点
+      - 台湾节点
+      - 韩国节点 
+      - DIRECT
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
   - name: 手动切换
     type: select
     include-all: true
