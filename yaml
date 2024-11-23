@@ -392,6 +392,13 @@ rule-providers:
     interval: 86400
     path: ./rules/HBO.list
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO.list
+  Proxy：
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rules/Proxy.list
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.listw
 rules:
   - RULE-SET,Speedtest,测速
   - RULE-SET,AI,AI
@@ -412,4 +419,4 @@ rules:
   - GEOSITE,gfw,国外网站
   - GEOIP,lan,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,兜底分流,手动切换
+  - MATCH,Proxy
