@@ -392,7 +392,7 @@ rule-providers:
     interval: 86400
     path: ./rules/HBO.list
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO.list
-  Proxy：
+  Proxy:
     type: http
     behavior: classical
     format: text
