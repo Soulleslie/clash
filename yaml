@@ -124,153 +124,178 @@ proxy-groups:
     type: select
     include-all: true
     proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点 
       - DIRECT
+      - 手动切换
+      - 香港自动
+      - 美国自动
+      - 狮城自动
+      - 日本自动
+      - 台湾自动
+      - 韩国自动
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
-  - name: 测速
+  - name: Speedtest
     type: select
-    proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点
-      - DIRECT
+    include-all: true
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png
-  - name: 国外网站
+  - name: Apple
     type: select
     proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点
       - DIRECT
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
-  - name: 国际媒体
-    type: select
-    proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点
-      - DIRECT
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-  - name: 苹果服务
-    type: select
-    proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点
-      - DIRECT
+      - 香港手动
+      - 美国手动
+      - 香港自动
+      - 美国自动
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png
-  - name: 微软服务
+  - name: Microsoft
     type: select
     proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点
+      - 美国手动
+      - 美国自动
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
-  - name: 谷歌服务
+  - name: Google
     type: select
     proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点
-      - DIRECT
+      - 美国手动
+      - 美国自动
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
-  - name: 电报消息
+  - name: Telegram
     type: select
     proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点
-      - DIRECT
+      - 狮城手动
+      - 狮城自动
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
-  - name: 推特消息
+  - name: PayPal
     type: select
     proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点
-      - DIRECT
+      - 美国手动
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
+  - name: Twitter
+    type: select
+    proxies:
+      - 香港手动
+      - 美国手动
+      - 香港自动
+      - 美国自动
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
   - name: AI
     type: select
     proxies:
-      - 手动切换
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点
-      - DIRECT
+      - 美国手动
+      - 日本手动
+      - 美国自动
+      - 日本自动
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
+  - name: Discord
+    type: select
+    proxies:
+      - 韩国手动
+      - 韩国自动
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
+  - name: Spotify
+    type: select
+    proxies:
+      - 美国手动
+      - 美国自动
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+  - name: Facebook
+    type: select
+    proxies:
+      - 香港手动
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Facebook.png
+  - name: GlobalMedia
+    type: select
+    proxies:
+      - 手动切换
+      - 香港手动
+      - 美国手动
+      - 狮城手动
+      - 日本手动
+      - 台湾手动
+      - 韩国手动
+      - 香港自动
+      - 美国自动
+      - 狮城自动
+      - 日本自动
+      - 台湾自动
+      - 韩国自动
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+  - name: Foreign websites
+    type: select
+    proxies:
+      - 香港手动
+      - 美国手动
+      - 狮城手动
+      - 日本手动
+      - 台湾手动
+      - 韩国手动
+      - 香港自动
+      - 美国自动
+      - 狮城自动
+      - 日本自动
+      - 台湾自动
+      - 韩国自动
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
   - name: 手动切换
     type: select
     include-all: true
     icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png
-  - name: 香港节点
+  - name: 香港手动
+    type: select
+    include-all: true
+    filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+  - name: 美国手动
+    type:  select
+    include-all: true
+    filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+  - name: 狮城手动
+    type: select
+    include-all: true
+    filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+  - name: 日本手动
+    type: select
+    include-all: true
+    filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+  - name: 台湾手动
+    type: select
+    include-all: true
+    filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
+  - name: 韩国手动
+    type: uselect
+    include-all: true
+    filter: "(?i)🇰🇷|韩国|首尔|(\b(KR|Korea)\b)"
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
+  - name: 香港自动
     type: url-test
     include-all: true
     filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
-  - name: 美国节点
+  - name: 美国自动
     type: url-test
     include-all: true
     filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
-  - name: 狮城节点
+  - name: 狮城自动
     type: url-test
     include-all: true
     filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
-  - name: 日本节点
+  - name: 日本自动
     type: url-test
     include-all: true
     filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
-  - name: 台湾节点
+  - name: 台湾自动
     type: url-test
     include-all: true
     filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
-  - name: 韩国节点
+  - name: 韩国自动
     type: url-test
     include-all: true
     filter: "(?i)🇰🇷|韩国|首尔|(\b(KR|Korea)\b)"
@@ -311,6 +336,13 @@ rule-providers:
     interval: 86400
     path: ./rules/Telegram.list
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Telegram/Telegram.list
+  PayPal:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rules/PayPal.list
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PayPal/PayPal.list
   Twitter:
     type: http
     behavior: classical
@@ -318,13 +350,6 @@ rule-providers:
     interval: 86400
     path: ./rules/Twitter.list
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter.list
-  Paypal:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rules/Paypal.list
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PayPal/PayPal.list
   AI:
     type: http
     behavior: classical
@@ -403,23 +428,23 @@ rule-providers:
     path: ./rules/Proxy.list
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 rules:
-  - RULE-SET,Speedtest,测速
+  - RULE-SET,Speedtest,Speedtest
   - RULE-SET,AI,AI
-  - RULE-SET,Apple,苹果服务
-  - RULE-SET,YouTube,谷歌服务
-  - RULE-SET,Google,谷歌服务
-  - RULE-SET,Telegram,电报消息
-  - RULE-SET,Paypal,美国节点
-  - RULE-SET,Microsoft,美国节点
-  - RULE-SET,Facebook,香港节点
-  - RULE-SET,Twitter,推特消息
-  - RULE-SET,Discord,韩国节点
-  - RULE-SET,Spotify,国际媒体
-  - RULE-SET,Netflix,国际媒体
-  - RULE-SET,Disney,国际媒体
-  - RULE-SET,PrimeVideo,国际媒体
-  - RULE-SET,HBO,国际媒体
-  - GEOSITE,gfw,国外网站
+  - RULE-SET,Apple,Apple
+  - RULE-SET,YouTube,Google
+  - RULE-SET,Google,Google
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,Paypal,PayPal
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Facebook,Facebook
+  - RULE-SET,Twitter,Twitter
+  - RULE-SET,Discord,Discord
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,Netflix,GlobalMedia
+  - RULE-SET,Disney,GlobalMedia
+  - RULE-SET,PrimeVideo,GlobalMedia
+  - RULE-SET,HBO,GlobalMedia
+  - GEOSITE,gfw,Foreign websites
   - GEOIP,lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
