@@ -124,6 +124,7 @@ proxy-groups:
     type: select
     include-all: true
     proxies:
+      - 手动切换
       - 香港节点
       - 美国节点
       - 狮城节点
@@ -132,18 +133,6 @@ proxy-groups:
       - 韩国节点 
       - DIRECT
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
-  - name: 手动切换
-    type: select
-    include-all: true
-    proxies:
-      - 香港节点
-      - 美国节点
-      - 狮城节点
-      - 日本节点
-      - 台湾节点
-      - 韩国节点 
-      - DIRECT
-    icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png
   - name: 测速
     type: select
     proxies:
@@ -252,33 +241,37 @@ proxy-groups:
       - 韩国节点
       - DIRECT
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
-  - name: 香港节点
+  - name: 手动切换
     type: select
+    include-all: true
+    icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png
+  - name: 香港节点
+    type: url-test
     include-all: true
     filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
   - name: 美国节点
-    type: select
+    type: url-test
     include-all: true
     filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
   - name: 狮城节点
-    type: select
+    type: url-test
     include-all: true
     filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
   - name: 日本节点
-    type: select
+    type: url-test
     include-all: true
     filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
   - name: 台湾节点
-    type: select
+    type: url-test
     include-all: true
     filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
   - name: 韩国节点
-    type: select
+    type: url-test
     include-all: true
     filter: "(?i)🇰🇷|韩国|首尔|(\b(KR|Korea)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
