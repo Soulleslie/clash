@@ -266,7 +266,7 @@ proxy-groups:
     filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
   - name: 韩国手动
-    type: uselect
+    type: select
     include-all: true
     filter: "(?i)🇰🇷|韩国|首尔|(\b(KR|Korea)\b)"
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
