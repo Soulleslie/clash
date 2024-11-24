@@ -434,7 +434,7 @@ rules:
   - RULE-SET,YouTube,Google
   - RULE-SET,Google,Google
   - RULE-SET,Telegram,Telegram
-  - RULE-SET,Paypal,PayPal
+  - RULE-SET,PayPal,PayPal
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Facebook,Facebook
   - RULE-SET,Twitter,Twitter
